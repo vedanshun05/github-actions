@@ -1,6 +1,8 @@
 name: Hello GitHub Actions
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 jobs:
   hello:
     runs-on: ubuntu-latest
@@ -8,7 +10,7 @@ jobs:
       - name: Print message
         run: echo "Hello from GitHub Actions!"
       - name: Print greeting
-        run: echo "Hello Vedu"
+        run: echo "Hello from Vedanshu"
       - name: Show date
         run: date
       - name: Show operating system
