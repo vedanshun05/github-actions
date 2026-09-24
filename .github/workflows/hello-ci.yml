@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - feature/*-
 jobs:
   hello:
     runs-on: ubuntu-latest
