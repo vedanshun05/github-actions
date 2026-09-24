@@ -7,8 +7,8 @@ jobs:
     steps:
       - name: Print message
         run: echo "Hello from GitHub Actions!"
-      - name: Print name
-        run: echo "My name is Vedu"
+      - name: Print greeting
+        run: echo "Hello Vedu"
       - name: Show date
         run: date
       - name: Show operating system
