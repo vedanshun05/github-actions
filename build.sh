@@ -9,4 +9,5 @@ cat > build/app.txt <<EOF
 Session 16 Calculator Application
 This file was generated during the CI build.
 EOF
+cp app/calculator.py build/calculator.py
 echo "Build completed successfully."
